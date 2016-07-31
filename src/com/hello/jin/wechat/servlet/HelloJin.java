@@ -182,29 +182,15 @@ public class HelloJin extends HttpServlet {
                 	String eventKey = requestMap.get("EventKey");
 
                 	if (eventKey.equals("11")) {
-                		respContent = "天气预报菜单项被点击！";
-                	} else if (eventKey.equals("12")) {
-                		respContent = "公交查询菜单项被点击！";
-                	} else if (eventKey.equals("13")) {
-                		respContent = "周边搜索菜单项被点击！";
-                	} else if (eventKey.equals("14")) {
-                		respContent = "历史上的今天菜单项被点击！";
+                		respContent = "11被点击！";
                 	} else if (eventKey.equals("21")) {
-                		respContent = "歌曲点播菜单项被点击！";
-                	} else if (eventKey.equals("22")) {
-                		respContent = "经典游戏菜单项被点击！";
-                	} else if (eventKey.equals("23")) {
-                		respContent = "美女电台菜单项被点击！";
-                	} else if (eventKey.equals("24")) {
-                		respContent = "人脸识别菜单项被点击！";
-                	} else if (eventKey.equals("25")) {
-                		respContent = "聊天唠嗑菜单项被点击！";
+                		respContent = "21被点击！";
                 	} else if (eventKey.equals("31")) {
-                		respContent = "Q友圈菜单项被点击！";
+                		respContent = "31被点击！";
                 	} else if (eventKey.equals("32")) {
-                		respContent = "电影排行榜菜单项被点击！";
+                		respContent = "32被点击！";
                 	} else if (eventKey.equals("33")) {
-                		respContent = "幽默笑话菜单项被点击！";
+                		respContent = "33被点击！";
                 	}
 
                 }
